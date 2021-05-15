@@ -195,7 +195,7 @@ th {
     line-height: 19px;
 }
 
-tr:nth-of-type(even) {
+tr:nth-of-type(odd) {
     background-color: #dbe8e9;
 }
 
