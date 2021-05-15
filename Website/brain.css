@@ -1,0 +1,363 @@
+/* Riley,Sharyl SDEV153 SDEV153-10P */
+
+
+/*revision 1.0 2021-02-04 */
+
+* {
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #FFFFFF;
+    background-repeat: no-repeat;
+    background-position: right;
+    text-align: right;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: 1em;
+}
+
+header a {
+    text-decoration: none;
+}
+
+header a:link {
+    color: rgba(0, 0, 0, 1);
+}
+
+header a:visited {
+    color: rgba(0, 0, 0, 1);
+}
+
+header a:hover {
+    color: rgba(112, 128, 144);
+}
+
+main {
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: 1em;
+    margin-left: 170px;
+    display: block;
+}
+
+body {
+    background-color: #FFFFFF;
+    color: rgba(0, 0, 0, 1);
+    text-align: center;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: 1em;
+    display: block;
+}
+
+h1 {
+    padding-top: 50px;
+    padding-left: 2em;
+    font-family: Futura;
+    font-size: 64px;
+    font-style: oblique;
+    font-variant: normal;
+    font-weight: 400;
+    line-height: 64px;
+    text-align: center;
+    letter-spacing: .50em;
+}
+
+h2 {
+    padding-top: 50px;
+    padding-left: 2em;
+    font-family: Futura;
+    font-size: 64px;
+    font-style: oblique;
+    font-variant: normal;
+    font-weight: 400;
+    line-height: 64px;
+    text-align: left;
+    letter-spacing: .50em;
+}
+
+h3 {
+    padding-top: 50px;
+    padding-left: 2em;
+    font-family: Futura;
+    font-size: 64px;
+    font-style: oblique;
+    font-variant: normal;
+    font-weight: 400;
+    line-height: 64px;
+    text-align: right;
+    letter-spacing: .50em;
+}
+
+h4 {
+    padding-top: 50px;
+    font-family: Futura;
+    font-size: 64px;
+    font-style: oblique;
+    font-variant: normal;
+    font-weight: 400;
+    line-height: 64px;
+    text-align: left;
+    letter-spacing: .50em;
+}
+
+h5 {
+    padding-top: 50px;
+    padding-left: 2em;
+    font-family: Futura;
+    font-size: 64px;
+    font-style: oblique;
+    font-variant: normal;
+    font-weight: 400;
+    line-height: 64px;
+    text-align: right;
+    letter-spacing: .50em;
+}
+
+p {
+    font-family: Futura;
+    font-size: 19px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: lighter;
+    line-height: 30px;
+}
+
+
+/* navigation properties*/
+
+nav {
+    font-weight: bold;
+    color: rgba(0, 0, 0, 1);
+    float: left;
+    width: 160px;
+    padding: 2.1em;
+    border: 8px rgba(233, 230, 225, 1);
+    background-color: #FFFFFF;
+    font-family: Futura;
+    font-size: 19px;
+    font-style: normal;
+    font-variant: small-caps;
+    font-weight: 100;
+    line-height: 19px;
+}
+
+nav a {
+    border: 3px inset rgba(233, 230, 225, 1);
+    background-color: #FFFFFF;
+    text-decoration: none;
+    display: block;
+    font-weight: lighter;
+    color: rgba(0, 0, 0, 1);
+    text-align: center;
+    height: 100%;
+    padding: 1em;
+    margin-bottom: 1em;
+}
+
+nav a:link {
+    color: rgba(0, 0, 0, 1);
+}
+
+nav a:visited {
+    color: rgba(0, 0, 0, 1);
+}
+
+nav a:hover {
+    color: rgba(0, 0, 0, 1);
+    /* black background on mouse-over */
+}
+
+nav ul {
+    list-style: none;
+    /* removes bullets*/
+    padding-left: 0;
+}
+
+table {
+    margin: auto;
+    width: 60%;
+    border: 1em #3f2860;
+    border-collapse: collapse;
+    margin-bottom: 1em;
+}
+
+td,
+th {
+    padding: 5px;
+    border: 1px solid #3f2860;
+    font-family: Futura;
+    font-size: 19px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: lighter;
+    line-height: 19px;
+}
+
+tr:nth-of-type(even) {
+    background-color: #dbe8e9;
+}
+
+caption {
+    margin: 1em;
+    font-family: Futura;
+    font-size: 19px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: lighter;
+    line-height: 19px;
+}
+
+img {
+    display: inline-block
+}
+
+footer {
+    background-color: #FFFFFF;
+    font-size: .60em;
+    text-align: center;
+    padding: 1em;
+}
+
+#wrapper {
+    background-color: rgba(249, 227, 215, 1);
+    min-width: 1200px;
+    max-width: 1480px;
+    margin-left: 5%;
+    margin-right: auto;
+    width: 80%;
+    height: 100%;
+}
+
+#wrapper1 {
+    background-color: rgba(211, 197, 197, 1);
+    min-width: 1200px;
+    max-width: 1480px;
+    margin-left: 5%;
+    margin-right: auto;
+    width: 80%;
+    height: 100%;
+}
+
+#wrapper2 {
+    background-color: rgba(233, 230, 225, 1);
+    min-width: 1200px;
+    max-width: 1480px;
+    margin-left: 5%;
+    margin-right: auto;
+    width: 80%;
+    height: 100%;
+}
+
+#wrapper3 {
+    background-color: rgba(204, 221, 219, 1);
+    min-width: 1200px;
+    max-width: 1480px;
+    margin-left: 5%;
+    margin-right: auto;
+    width: 80%;
+    height: 100%;
+}
+
+#wrapper4 {
+    background-color: rgba(220, 228, 219, 1);
+    min-width: 1200px;
+    max-width: 1480px;
+    margin-left: 5%;
+    margin-right: auto;
+    width: 80%;
+    height: 100%;
+}
+
+#wrapper5 {
+    background-color: rgba(223, 183, 176, 1);
+    min-width: 1200px;
+    max-width: 1480px;
+    margin-left: 5%;
+    margin-right: auto;
+    width: 80%;
+    height: 100%;
+}
+
+.blockquote {
+    font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+    font-size: 21px;
+    font-style: normal;
+    font-variant: small-caps;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: right;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 1);
+    padding: 1em;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    padding-left: 1em;
+    width: 80%;
+}
+
+#mobile {
+    display: inline;
+}
+
+#desktop {
+    display: none;
+}
+
+@media (min-width: 600px) {
+    form {
+        width: 60%;
+        display: grid;
+        grid-template-columns: 12em 1fr;
+        grid-gap: 1em;
+    }
+    #mySubmit {
+        grid-template-columns: 1fr;
+        width: 9em;
+    }
+    label {
+        text-align: right;
+    }
+    nav ul {
+        flex-flow: row nowrap;
+        justify-content: flex-end;
+    }
+    nav li {
+        width: 7em;
+    }
+    #mobile {
+        display: none;
+    }
+    #desktop {
+        display: inline;
+    }
+}
+
+@media (min-width: 1024px) {
+    header {
+        font-size: 120%;
+    }
+    .home {
+        height: 50vh;
+        padding-left: 8em;
+        padding-top: 5em;
+    }
+    .content {
+        height: 30vh;
+        padding-left: 8em;
+        padding-top: 1em;
+    }
+    #wrapper,
+    #wrapper1,
+    #wrapper2,
+    #wrapper3,
+    #wrapper4,
+    #wrapper5 {
+        margin: auto;
+        width: 80%;
+    }
+}
